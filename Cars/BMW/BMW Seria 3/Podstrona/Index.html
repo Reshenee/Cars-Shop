@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW Seria 3</title>
+    <link rel="stylesheet" href="index.css">
+    <script src = "index.js"> </script>
+</head>
+<body>
+    <div class="pasek">
+        <a href="../../../../index.html"><button class="Home">Home</button></a>
+    </div>
+
+    <div class="col-md-4">
+        <div class="product">
+            <div class="image">
+                <img src="../BMW Seria 3.png" alt="">
+            </div>
+            <div class="info">
+                <h3>BMW Seria 3</h3>
+
+                <h6>Rocznik: 2020</h6>
+                <h6>Paliwo: Diesel</h6>
+                <h6>Przebieg: 53 000 km</h6>
+                <h6>Pojemność skokowa: 1 995 cm3</h6>
+                <span class="price">190 000<small>zł</small></span>
+
+                <div class="platnosc">
+                    <label>Płatność:</label>
+                    <input type="radio" name="platnosc" value="gotowka">Gotówka
+                    <input type="radio" name="platnosc" value="leasing">Leasing
+                </div>
+                <div class="platnosc">
+                    <label>Dodatki:</label>
+                    <input type="checkbox">Opony Zimowe - 1000<small>zł</small>
+                    <input type="checkbox">Wymiana Felg - 250<small>zł</small>
+                </div>
+                <form id="platnoscForm">
+                    <div class="form-group">
+                      <label for="imie">Imię:</label>
+                      <input type="text" class="form-control" id="imie" required placeholder="Wpisz twoje imie...">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                      <label for="nazwisko">Nazwisko:</label>
+                      <input type="text" class="form-control" id="nazwisko" required placeholder="Wpisz twoje nazwisko...">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="miasto">Odbiór:</label>
+                        <input type="text" class="form-control" id="miasto" required placeholder="Wpisz miejsce odbioru wpisz twój adres lub Komis...">
+                      </div>
+                      <div class="info-price">
+                        <button onclick="kupAuto()" class="buy" type="submit" id="kup">Zakup</button>
+                    </div>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
