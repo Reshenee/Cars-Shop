@@ -1,0 +1,207 @@
+.napis {
+    text-align: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(54, 157, 54);
+}
+
+.napis h1 {
+    font-size: 21px;
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+.pasek {
+    position: relative;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+
+.info {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(54, 157, 54);
+    height: 700px;
+    width: 700px;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+
+
+.product{
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.image img { 
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.image {
+    margin-bottom: 10px;
+}
+
+.info h6{
+    margin: 3px;
+    font-weight: 500;
+    font-size: 21px;
+}
+.info h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.stars {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.stars li {
+    display: inline-block;
+    color: rgb(255, 140, 0); 
+}
+
+.info-price {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 50px;
+    padding-top: 40px;
+
+}
+
+.buy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(54, 157, 54);
+    color: whitesmoke;
+    font-size: 27px;
+    border-color: whitesmoke;
+    border-radius: 5px;
+    font-weight: 500;
+    
+
+}
+
+.buy:hover {
+    cursor: pointer;
+}
+
+.info-price {
+    text-decoration: none;
+    width: 80px;
+    height: 40px;
+    border-radius: 2px;
+    border-color: whitesmoke;
+    border-width: 2px;
+}
+
+.info-price a{
+    text-decoration: none;
+}
+
+.Home {
+    border: none;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    background-color: rgb(54, 157, 54);
+    color: whitesmoke;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 21px;
+    transition: 0.5s;
+    text-transform: none;
+
+}
+
+
+.Home:hover{
+    width: 120px;
+    height: 60px;
+    font-size: 25px;
+}
+
+.pasek a {
+    text-decoration: none;
+}
+
+.price{
+    padding-top: 30px;
+    font-weight: 700;
+    font-size: 27px;
+}
+
+
+nav{
+    position: absolute;
+    width: 100px;
+    align-items: start;
+    padding-left: 20px;
+}
+
+.select {
+    height: 50px;
+    width: 120px;
+    font-size: 21px;
+    border-color:  rgb(54, 157, 54);
+    border-radius: 10px;
+    background-color: rgb(54, 157, 54);
+    color: whitesmoke;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.select:hover {
+    cursor: pointer;
+}
+
+.form-check {
+    margin: 5px;
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.baton {
+    width: 70px;
+    height: 35px;
+    font-size: 21px;
+}
+
+.input {
+    margin: 5px;
+    border-width: 10px;
+    border-radius: 5px;
+}
+
+.input.error{
+    border-color: red ;
+}
+
+.input::placeholder {
+    color: #ccc;
+}
+
+.checkbox__input.error + .checkbox__label {
+    color: red;
+}
