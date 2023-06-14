@@ -1,0 +1,129 @@
+.product{
+    margin-bottom: 30px;
+}
+
+.image img { 
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.image {
+    margin-bottom: 10px;
+}
+
+.info h6{
+    margin: 1px;
+    font-weight: 500;
+}
+.info h3 {
+    font-size: 21px;
+    margin-bottom: 0;
+}
+
+.stars {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.stars li {
+    display: inline-block;
+    color: rgb(255, 140, 0); 
+}
+
+.info-price {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buy {
+    border: none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(54, 157, 54);
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+.info-price a {
+    text-decoration: none;
+}
+
+.Home {
+    border: none;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    background-color: rgb(54, 157, 54);
+    color: whitesmoke;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 21px;
+    transition: 0.5s;
+    text-transform: none;
+
+}
+
+
+.Home:hover{
+    width: 120px;
+    height: 60px;
+    font-size: 25px;
+}
+
+.pasek {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.pasek nav{
+    align-items: start;
+}
+
+.pasek a {
+    text-decoration: none;
+}
+
+.price{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.select {
+    
+}
+
+nav{
+    position: absolute;
+    width: 100px;
+    align-items: start;
+    padding-left: 20px;
+}
+
+.select {
+    height: 50px;
+    width: 120px;
+    font-size: 21px;
+    border-color:  rgb(54, 157, 54);
+    border-radius: 10px;
+    background-color: rgb(54, 157, 54);
+    color: whitesmoke;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.select:hover {
+    cursor: pointer;
+}
